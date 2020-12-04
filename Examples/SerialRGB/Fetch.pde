@@ -5,7 +5,7 @@ long startingDateMillis;
 
 void fetch() {
   JSONObject json;
-  json = loadJSONObject("https://api.airtable.com/v0/"+baseID+"/"+tableName+"?api_key="+apiKey);
+  json = loadJSONObject("https://api.airtable.com/v0/"+baseID+"/"+tableName+"?api_key="+apiKey+"&sort%5B0%5D%5Bfield%5D=timestamp&sort%5B0%5D%5Bdirection%5D=asc");
   JSONArray values = json.getJSONArray("records");
 
   for (int i = 0; i < values.size(); i++) {

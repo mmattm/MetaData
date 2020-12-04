@@ -1,6 +1,6 @@
 String projectName = "meta datas";
 
-String date = "14/10/2020"; // Date de début
+String date = "4/11/2020"; // Date de début
 
 // https://airtable.com/api
 String baseID = ""; // ID de la base
