@@ -2,9 +2,9 @@ String projectName = "meta datas"; // Nom du projet
 String date = "3/11/2020"; // Date de début
 
 // https://airtable.com/api
-String baseID = "appGCAW4C1b1Lrosb"; // ID de la base
-String tableName = "Event"; // Nom du tableau Airtable
-String apiKey = "keyv0x7gFS8fHDI2d"; // Clé API
+String baseID = ""; // ID de la base
+String tableName = ""; // Nom du tableau Airtable
+String apiKey = ""; // Clé API
 
 PGraphics canvas;
 
