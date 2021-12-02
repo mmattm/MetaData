@@ -1,8 +1,8 @@
 String projectName = "meta datas"; // Nom du projet
-String date = "14/10/2020"; // Date de début
+String date = "4/11/2020"; // Date de début
 
 // https://airtable.com/api
-String baseID = ""; // ID de la base
+String baseID = ""; // ID de la base -> https://help.appsheet.com/en/articles/1785063-using-data-from-airtable
 String tableName = ""; // Nom du tableau Airtable
 String apiKey = ""; // Clé API
 
@@ -18,7 +18,7 @@ void setup() {
 
 void draw() {
   background(0);
-
+  
   canvas.beginDraw();
   canvas.background(0);
   //Parcourir les enregistrements 
